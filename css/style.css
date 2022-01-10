@@ -132,7 +132,7 @@ body {
     font-family: 'Marcellus SC', serif;
     font-size: 30px;
     text-transform: capitalize;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
 }
 
 .btn-header {
@@ -140,6 +140,7 @@ body {
     color: aliceblue;
     font-size: 15px;
     border-radius: 20px;
+    height: 35px;
     width: 150px;
 
 }
