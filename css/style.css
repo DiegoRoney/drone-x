@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Marcellus+SC&display=swap');
+
+/*
+font-family: 'Eagle Lake',
+cursive;
+font-family: 'Marcellus SC',
+serif;
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/**/
+.navbar {
+    display: flex;
+
+    align-items: stretch;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    font-family: 'Marcellus SC',
+        serif;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 9;
+    transition: .5s;
+}
+
+.navbar.bg {
+
+    background: rgb(255, 0, 0);
+
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.link-item {
+    margin: 10px;
+}
+
+.link {
+    font-size: 18px;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    opacity: 0.7;
+    transition: .5s;
+}
+
+.navbar.bg .link {
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+
+.link.active,
+.link:hover,
+.navbar.bg .link:hover,
+.navbar.bg .link.active {
+    opacity: 1;
+}
+
+.user-interactions {
+    display: flex;
+    position: absolute;
+    right: 5vw;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.cart {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    float: inline-end;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.cart-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.header-section {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100vh;
+    background: url(../img/banner-1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-heading {
+
+    font-family: 'Marcellus SC',
+        serif;
+    font-size: 90px;
+    text-transform: capitalize;
+    color: rgb(85, 85, 85);
+}
+
+.header-heading span {
+    color: #ff0000;
+}
+
+.header-heading2 {
+    flex-wrap: wrap;
+    font-family: 'Marcellus SC', serif;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+}
+
+.btn-header {
+    background-color: #ff0000;
+    color: aliceblue;
+    font-size: 15px;
+    border-radius: 20px;
+    width: 150px;
+
+}
+
+/**/
+
+.informacoes {
+    padding: 25px;
+    font-family: 'Marcellus SC',
+        serif;
+    height: 100%;
+    color: rgb(24, 24, 24);
+    background: rgb(163, 163, 163);
+}
+
+footer {
+    background-color: #ff0000;
+    text-align: center;
+    color: white;
+}
+
+.footer-link {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px;
+    opacity: 0.7;
+    transition: .5s;
+}
