@@ -23,7 +23,6 @@ body {
 /**/
 .navbar {
     display: flex;
-
     align-items: stretch;
     flex-wrap: nowrap;
     align-content: space-between;
