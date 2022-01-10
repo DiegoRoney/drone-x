@@ -1,3 +1,3 @@
 # flex-box
 
-- Desafio: landin page, semm usar bootstrap :)
+- Desafio: landin page, sem usar bootstrap :)
