@@ -74,7 +74,7 @@ body {
 .navbar.bg .link:hover,
 .navbar.bg .link.active {
     opacity: 1;
-    font-size: 10%;
+
 }
 
 .user-interactions {
